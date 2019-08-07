@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zzx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="banner-main">
+        <div class="banner-main__info">
+            <img src="img/Avatar.png" alt="Avatat">
+            <h1>Hello, my name is Dmitriy and i create cool websites</h1>
+            <p>В этой жизни возможно все, и только от нас самих зависит наш успех и наши победы.</p>
+            <a href="http://vkontakte.ru/write170011272" class="banner-main__link">Hire me</a>
+        </div>
+        <a href="#scroll" class="banner-main__down"></a>
+    </div>
+    <div class="block block-scroll" id="scroll">
+        <div class="wrapper">
+            <h2>About Me</h2>
+            <p>Привет, расскажу немного о себе. По образованию инженер, но все время чувствовал, что не на своем месте, поэтому принял решение посвятить свободное от работы время обучению по направлению Frontend. На данный момент окончил полный курс по указанной специальности на IT площадке GeekBrains и до сих пор продолжаю изучать новые аспекты в верстке и JS. С моими решениями домашних задач вы можете ознакомиться ниже по ссылке на GitHub</p>
+        </div>
+    </div>
+    <div class="block block-blue">
+        <div class="wrapper">
+            <h2>Мои стремления</h2>
+            <div class="flexbox">
+                <div class="flexbox__item">
+                    <div class="flexbox__icon flexbox__icon-app"></div>
+                    <h3>MOBILE APP DESIGN</h3>
+                    <p>Применить свои знания для написания мобильной игры при помощи JS и фреймворков, но пока это только планы.</p>
+                </div>
+                <div class="flexbox__item">
+                    <div class="flexbox__icon flexbox__icon-design"></div>
+                    <h3>WEB DESIGN</h3>
+                    <p>Научиться создавать уникальные по дизайну и работе сайты. Живые сайты которые будут радовать глаза пользователей.</p>
+                </div>
+                <div class="flexbox__item">
+                    <div class="flexbox__icon flexbox__icon-web"></div>
+                    <h3>WEB DEVELOPMENT</h3>
+                    <p>Примение JS с каждым годом все обширнее и теперь даже появилась версия всем известного Arduino под названием Искра, для которой код пишут на чистом JS.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block">
+        <div class="wrapper">
+            <h2>Cсылки на мои ДЗ по JavaScript и мои контакты.</h2>
+            <div class="flexbox">
+                <div class="flexbox__item">
+                    <a href="https://github.com/SkakunD/practicalJS" target="_blank">
+                        <div class="thumb">
+                            <img src="img/github.jpg" alt="picture">
+                        </div>
+                    </a>
+                </div>
+                <div class="flexbox__item">
+                    <a href="http://vkontakte.ru/write170011272" target="_blank">
+                        <div class="thumb">
+                            <img src="img/vk-com.jpg" alt="picture">
+                        </div>
+                    </a>
+                </div>
+                <div class="flexbox__item">
+                    <a href="https://join.skype.com/invite/kDL17Vb4pIIl" target="_blank">
+                        <div class="thumb">
+                            <img src="img/skype.jpg" alt="picture">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block-footer">
+        <div class="wrapper">
+            <div class="block-footer__flex">
+                <h2>Need a web developer? <span>Ready to work!</span> </h2>
+                <a href="http://vkontakte.ru/write170011272" class="block-footer__link">Hire me</a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn-up"></a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()!=0) {
+                    $(".btn-up").fadeIn();
+                } else {
+                    $(".btn-up").fadeOut();
+                }
+            });
+            $('.btn-up').click(function(){
+                $('body, html').animate({scrollTop:0},1000);
+            });
+        });
+        $(function(){
+            $('a[href="#scroll"]').click(function(event){
+                event.preventDefault();
+                var el = $('.block-scroll');
+                $('body, html').animate({
+                    scrollTop:  $(el).offset().top
+                }, 1000);
+                });
+            });
+
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
