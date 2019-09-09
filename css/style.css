@@ -155,6 +155,30 @@ a.btn-up {
     margin-bottom: 23px;
 }
 
+
+.flexbox_work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 97px;
+    margin-bottom: 23px;
+}
+
+.flexbox__item {
+    margin-bottom: 20px;
+}
+
+.flexbox_border {
+    border: 2px solid #17528e;
+    border-radius: 10px;
+}
+
+.flexbox__item__title {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+
 .flexbox__icon {
     width: 140px;
     height: 140px;
