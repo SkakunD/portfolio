@@ -9,79 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="banner-main">
-        <div class="banner-main__info">
-            <img src="img/Avatar.png" alt="Avatat">
-            <h1>Hello, my name is Dmitriy and i create cool websites</h1>
-            <p>В этой жизни возможно все, и только от нас самих зависит наш успех и наши победы.</p>
-            <a href="http://vkontakte.ru/write170011272" class="banner-main__link">Hire me</a>
-        </div>
-        <a href="#scroll" class="banner-main__down"></a>
-    </div>
-    <div class="block block-scroll" id="scroll">
-        <div class="wrapper">
-            <h2>About Me</h2>
-            <p>Привет, расскажу немного о себе. По образованию инженер, но все время чувствовал, что не на своем месте, поэтому принял решение посвятить свободное от работы время обучению по направлению Frontend. На данный момент окончил полный курс по указанной специальности на IT площадке GeekBrains и до сих пор продолжаю изучать новые аспекты в верстке и JS. С моими решениями домашних задач вы можете ознакомиться ниже по ссылке на GitHub</p>
-        </div>
-    </div>
-    <div class="block block-blue">
-        <div class="wrapper">
-            <h2>Мои стремления</h2>
-            <div class="flexbox">
-                <div class="flexbox__item">
-                    <div class="flexbox__icon flexbox__icon-app"></div>
-                    <h3>MOBILE APP DESIGN</h3>
-                    <p>Применить свои знания для написания мобильной игры при помощи JS и фреймворков, но пока это только планы.</p>
-                </div>
-                <div class="flexbox__item">
-                    <div class="flexbox__icon flexbox__icon-design"></div>
-                    <h3>WEB DESIGN</h3>
-                    <p>Научиться создавать уникальные по дизайну и работе сайты. Живые сайты которые будут радовать глаза пользователей.</p>
-                </div>
-                <div class="flexbox__item">
-                    <div class="flexbox__icon flexbox__icon-web"></div>
-                    <h3>WEB DEVELOPMENT</h3>
-                    <p>Примение JS с каждым годом все обширнее и теперь даже появилась версия всем известного Arduino под названием Искра, для которой код пишут на чистом JS.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="block">
-        <div class="wrapper">
-            <h2>Cсылки на мои ДЗ по JavaScript и мои контакты.</h2>
-            <p>Также можете протестировать страницу регистрации.</p>
-            <div class="flexbox_work">
-                <div class="flexbox__item">
-                    <a href="https://github.com/SkakunD/practicalJS" target="_blank">
-                        <div class="thumb">
-                            <img src="img/github.jpg" alt="picture">
-                        </div>
-                    </a>
-                </div>
-                <div class="flexbox__item">
-                    <a href="http://vkontakte.ru/write170011272" target="_blank">
-                        <div class="thumb">
-                            <img src="img/vk-com.jpg" alt="picture">
-                        </div>
-                    </a>
-                </div>
-                <div class="flexbox__item">
-                    <a href="https://beenom.000webhostapp.com/index.html" target="_blank">
-                        <div class="thumb">
-                            <img src="img/page_reg.png" alt="picture">
-                        </div>
-                    </a>
-                </div>
-                <div class="flexbox__item flexbox_border">
-                    <a href="https://skakund.github.io/TestjQuery/" target="_blank">
-                        <div class="thumb">
-                            <h3 class="flexbox__item__title">Тестовое задание по работе с jQuery</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="root"></div>
     <div class="block-footer">
         <div class="wrapper">
             <div class="block-footer__flex">
@@ -117,5 +45,6 @@
 
     </script>
     <script src="js/script.js"></script>
+    <script src="./dist/bundle.js"></script>
 </body>
 </html>
