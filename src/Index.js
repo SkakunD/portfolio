@@ -16,9 +16,9 @@ class App extends React.Component {
         ];
 
         const workItems = [
-            {workHref: "https://github.com/SkakunD/practicalJS", workSrc: "../img/github.jpg"},
-            {workHref: "http://vkontakte.ru/write170011272", workSrc: "../img/vk-com.jpg"},
-            {workHref: "https://beenom.000webhostapp.com/index.html", workSrc: "../img/page_reg.png"},
+            {workHref: "https://github.com/SkakunD/practicalJS", workSrc: "./img/github.jpg"},
+            {workHref: "http://vkontakte.ru/write170011272", workSrc: "./img/vk-com.jpg"},
+            {workHref: "https://beenom.000webhostapp.com/index.html", workSrc: "./img/page_reg.png"},
             // {workHref: "https://skakund.github.io/TestjQuery/", workClass: "../img/github.jpg"}
         ]
 
