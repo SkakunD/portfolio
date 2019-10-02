@@ -12,7 +12,7 @@ class App extends React.Component {
         const blockItems = [
             {title: "MOBILE APP DESIGN", paragraph: "Применить свои знания для написания мобильной игры при помощи JS и фреймворков, но пока это планы.", itemClass: "flexbox__icon flexbox__icon-app"},
             {title: "WEB DESIGN", paragraph: "Научиться создавать уникальные по дизайну и работе сайты. Живые сайты которые будут радовать глаза пользователей.", itemClass: "flexbox__icon flexbox__icon-design"},
-            {title: "WEB DEVELOPMENT", paragraph: "Примение JS с каждым годом все обширнее и теперь даже появилась версия всем известного Arduino под названием Искра, для которой код пишут на чистом JS.", itemClass: "flexbox__icon flexbox__icon-web" }
+            {title: "REACT", paragraph: "Стараться использовать React как можно чаще для приобретения опыта", itemClass: "flexbox__icon flexbox__icon-web" }
         ];
 
         const workItems = [
