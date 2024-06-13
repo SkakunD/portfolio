@@ -38,10 +38,10 @@ class App extends React.Component {
         workHref: "http://vkontakte.ru/write170011272",
         workSrc: "./img/vk-com.jpg",
       },
-      {
-        workHref: "https://beenom.000webhostapp.com/index.html",
-        workSrc: "./img/page_reg.png",
-      },
+   //   {
+   //     workHref: "https://beenom.000webhostapp.com/index.html",
+   //     workSrc: "./img/page_reg.png",
+   //   },
       {
         workHref: "https://skakund.github.io/CarEngine",
         workSrc: "./img/car.png",
